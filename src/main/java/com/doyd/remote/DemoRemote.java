@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Map;
-@FeignClient(name = "demoRemote" ,url = "http://192.168.4.42:8089")
-//@FeignClient(name = "demoRemote" ,url = "http://134.175.170.169:8089")
+@FeignClient(name = "demoRemote" ,url = "http://192.168.4.226:8089/content-security")
+//@FeignClient(name = "demoRemote" ,url = "http://36d.kdwaimai.com/content-security")
 //@FeignClient(value = "content-security")
 public interface DemoRemote {
 
